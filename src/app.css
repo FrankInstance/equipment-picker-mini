@@ -1,0 +1,21 @@
+:root {
+  --bg: #060606;
+  --panel: rgba(16, 16, 16, 0.92);
+  --panel-soft: rgba(22, 22, 22, 0.88);
+  --stroke: rgba(255, 255, 255, 0.14);
+  --stroke-strong: rgba(255, 255, 255, 0.22);
+  --ink: #f2f2ee;
+  --ink-soft: rgba(255, 255, 255, 0.82);
+  --ink-muted: rgba(255, 255, 255, 0.58);
+  --ink-faint: rgba(255, 255, 255, 0.34);
+  --highlight: #ffe37a;
+}
+page {
+  min-height: 100%;
+  background: #070707;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+view, text, input {
+  box-sizing: border-box;
+}
